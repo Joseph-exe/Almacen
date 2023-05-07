@@ -4,11 +4,11 @@
  */
 package Main;
 
-import Vistas.Agregar;
-import Vistas.Inicio;
-import Vistas.Modificar;
-import Vistas.Vender;
-import Vistas.lista;
+import Productos.Agregar;
+import Productos.Inicio;
+import Productos.Modificar;
+import Productos.Vender;
+import Productos.lista;
 import com.formdev.flatlaf.intellijthemes.materialthemeuilite.FlatGitHubContrastIJTheme;
 import java.awt.BorderLayout;
 import javax.swing.JPanel;

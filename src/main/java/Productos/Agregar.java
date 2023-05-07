@@ -2,9 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JPanel.java to edit this template
  */
-package Vistas;
-
-import Main.DAONegociolmp;
+package Productos;
 
 /**
  *
@@ -156,7 +154,7 @@ public class Agregar extends javax.swing.JPanel {
         int precio=Integer.parseInt(textoPrecio.getText());        
         int stock=Integer.parseInt(textoStock.getText());
         //Validacion
-        server.Negocio negocio = new server.Negocio();
+        Utilidades.Negocio negocio = new Utilidades.Negocio();
         negocio.setId(id);
         negocio.setNombre(nombre);
         negocio.setPrecio(precio);
